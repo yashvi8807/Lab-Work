@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{ 
+    int a,b;
+    int and,or,xor;
+    printf("Enter First No.");
+    scanf("%d",&a);
+    printf("Enter Second No.");
+    scanf("%d",&b);
+    and=a&b;
+    or=a|b;
+    xor=a^b;
+    printf("AND is %d\n",and);
+    printf("OR is %d\n",or);
+    printf("XOR is %d\n",xor);
+    return 0;
+}
