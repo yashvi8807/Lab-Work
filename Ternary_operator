@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,max;
+    printf("Enter first No.");
+    scanf("%d",&a);
+    printf("Enter Second No.");
+    scanf("%d",&b);
+    max = (a > b) ? a : b;
+    printf("The largest number is %d\n",max);
+    return 0;
+}
