@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    printf("Enter first number: ");
+    scanf("%d", &a);
+    printf("Enter second number: ");
+    scanf("%d", &b);
+    if (a > 0 && b > 0)
+    {
+        printf("Both numbers are positive.");
+    } 
+    else 
+    {
+        printf("At least one number is not positive.");
+    }
+    if (a % 2 == 0 || b % 2 == 0) 
+    {
+        printf("At least one number is even.");
+    } 
+    else
+    {
+        printf("Both numbers are odd.");
+    }
+   if (!(a == b))
+    {
+        printf("The numbers are not equal.");
+    }
+    else
+    {
+        printf("The numbers are equal.");
+    }
+    return 0;
+}
