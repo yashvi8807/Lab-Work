@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    long F=1;
+    printf("Enter number.");
+    scanf("%d",&n);
+    for(int i=1;i <= n;i++){
+        F=F*i;
+    }
+    printf("%d!=%ld\n",n,F);
+    return 0;
+}
